@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #D439C5;
+  --secondary-color: #38CCD5;
+  --tertiary-color: #6B4FBB;
+  --title-color: #ffffff;
+  --text-color: #666666;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0E0E0E;
+  -webkit-font-smoothing: antialiased;
+  color: var(--text-color);
+}
+
+body,
+input,
+button {
+  font-family: Roboto, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-color);
+  font-family: Roboto;
+}
