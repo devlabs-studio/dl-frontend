@@ -3,8 +3,12 @@
     height: 100px;
     padding: 0 5vw;
     border-bottom: 1px solid var(--text-color);
+    background: rgba(14,14,14,0.5);
+    backdrop-filter: saturate(180%) blur(3px);
 
-    display: block;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
 }
 
 #header #container {

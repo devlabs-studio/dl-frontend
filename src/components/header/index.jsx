@@ -7,22 +7,24 @@ import './styles.css'
 const Header = () => {
   return (
     <div id="header">
-      <div id="container">
-        <div className="logo-img">
-          <img src={DevLabsLogo} alt="logo image"/>
-        </div>
+      <div className="header-background">
+        <div id="container">
+          <div className="logo-img">
+            <img src={DevLabsLogo} alt="logo image"/>
+          </div>
 
-        <div className="menu">
-          <ul>
-            <li><Link to="/" className="menu-select">Inicio</Link></li>
-            <li><Link to="/">Tecnologias</Link></li>
-            <li><Link to="/">Projetos</Link></li>
-            <li><Link to="/">Sobre</Link></li>
-          </ul>
-        </div>
+          <div className="menu">
+            <ul>
+              <li><Link to="/" className="menu-select">Inicio</Link></li>
+              <li><Link to="/">Tecnologias</Link></li>
+              <li><Link to="/">Projetos</Link></li>
+              <li><Link to="/">Sobre</Link></li>
+            </ul>
+          </div>
 
-        <div className="contribute">
-          <Link to="/">Contribuir</Link>
+          <div className="contribute">
+            <Link to="/">Contribuir</Link>
+          </div>
         </div>
       </div>
     </div>
