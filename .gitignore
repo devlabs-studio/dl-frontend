@@ -57,4 +57,4 @@ dist/
 *.log
 
 *.psd
-.eslintcache
+*.eslintcache

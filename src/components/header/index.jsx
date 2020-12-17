@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import DevLabsLogo from '../../assets/dl-logo.svg'
 import './styles.css'
@@ -13,15 +14,15 @@ const Header = () => {
 
         <div className="menu">
           <ul>
-            <li><a className="menu-select" href="">Inicio</a></li>
-            <li><a href="">Tecnologias</a></li>
-            <li><a href="">Projetos</a></li>
-            <li><a href="">Sobre</a></li>
+            <li><Link to="/" className="menu-select">Inicio</Link></li>
+            <li><Link to="/">Tecnologias</Link></li>
+            <li><Link to="/">Projetos</Link></li>
+            <li><Link to="/">Sobre</Link></li>
           </ul>
         </div>
 
-        <div className="donate">
-          <a href="">Contribuir</a>
+        <div className="contribute">
+          <Link to="/">Contribuir</Link>
         </div>
       </div>
     </div>

@@ -33,3 +33,7 @@ h6 {
   color: var(--title-color);
   font-family: Roboto;
 }
+
+a {
+  text-decoration: none;
+}
