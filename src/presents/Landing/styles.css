@@ -1,0 +1,13 @@
+#landing-page {
+  padding: 0 5vw;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+#landing-page .landing-content {
+  max-width: 972px;
+
+  display: flex;
+}
