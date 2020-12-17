@@ -1,10 +1,15 @@
 import React from 'react'
 
+import './styles.css'
+
+import Section1 from './components/Section_1/index'
+
 const Landing = () => {
   return (
     <div id="landing-page">
-      <h1>Bem vindo</h1>
-      <h4>DevLabs</h4>
+      <div className="landing-content">
+        <Section1 />
+      </div>
     </div>
   )
 }
