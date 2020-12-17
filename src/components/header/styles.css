@@ -1,0 +1,47 @@
+#header{
+    padding: 30px 0;
+    border-bottom: 1px solid var(--text-color);
+}
+
+#container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+#header > #container{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul li{
+    margin-left: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+.menu ul li a.menu-select{
+    color: #AD5DC9;
+    border-bottom: 1px solid #AD5DC9;
+}
+
+.donate a{
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: var(--title-color);
+}
