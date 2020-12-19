@@ -2,10 +2,35 @@
   --primary-color: #D439C5;
   --secondary-color: #38CCD5;
   --tertiary-color: #6B4FBB;
-  --title-color: #ffffff;
+  --white-color: #ffffff;
   --text-color: #666666;
+
+  --red-color: #FF5F56;
+  --yellow-color: #FFBD2E;
+  --green-color: #27C93F;
 }
 
+.code--magenta-color {
+  color: var(--primary-color);
+}
+.code--aqua-color {
+  color: var(--secondary-color);
+}
+.code--purple-color {
+  color: var(--tertiary-color);
+}
+.code--white-color {
+  color: var(--white-color);
+}
+.window-close {
+  background-color: var(--red-color);
+}
+.window-minimize {
+  background-color: var(--yellow-color);
+}
+.window-fullScreen {
+  background-color: var(--green-color);
+}
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--title-color);
+  color: var(--white-color);
   font-family: Roboto;
 }
 
