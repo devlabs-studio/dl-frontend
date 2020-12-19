@@ -5,4 +5,6 @@ import DevLabsLogo from '../../assets/dl-logo.svg'
 import './styles.css'
 
 const About = () => {}
+
+export default About
     
