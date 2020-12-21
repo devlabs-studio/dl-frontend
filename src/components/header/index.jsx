@@ -18,12 +18,12 @@ const Header = () => {
               <li><Link to="/" className="menu-select">Inicio</Link></li>
               <li><Link to="/">Tecnologias</Link></li>
               <li><Link to="/">Projetos</Link></li>
-              <li><Link to="/">Sobre</Link></li>
+             <li><Link to="/about">Sobre</Link></li> 
             </ul>
           </div>
 
           <div className="contribute">
-            <Link to="/">Contribuir</Link>
+            <Link to="">Contribuir</Link>
           </div>
         </div>
       </div>
