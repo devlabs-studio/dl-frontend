@@ -1,11 +1,43 @@
 #page-about {
-  width: 100vw;
-  height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
 
   color: var(--color-text-in-primary);
-  background: var(--color-primary);
+  background:  url("http://localhost:3000/assets/background.jpg") no-repeat;
+  background-size: 100% 100vh; 
+
 }
+
+.container {
+  max-width: 972px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+
+
+#page-about-content h1 {
+  margin: 38% 0 173px 0 ;
+  font-size: 54px;
+
+
+}
+
+#page-about-content span {
+  position: absolute;
+  top: 550px;
+  left: 660px;
+}
+
+#page-about-content p {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+
+
+
