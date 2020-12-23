@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import './styles.css'
 
 import DevLabsIcon from '../../../../assets/dl-logo.svg'
@@ -6,7 +8,7 @@ import GitIcon from '../../../../assets/social/github.svg'
 import TwitterIcon from '../../../../assets/social/twitter.svg'
 import InstagramIcon from '../../../../assets/social/instagram.svg'
 import YoutubeIcon from '../../../../assets/social/youtube.svg'
-import BackIcon from '../../../../assets/social/back.svg'
+import BackIcon from '../../../../assets/icons/cheveron_up.svg'
 
 const Footer = () => {
     return(
@@ -15,26 +17,28 @@ const Footer = () => {
 
                 <div className="footer-column1">
                     <div className="footer-content1">
-                        <h3>Sobre Nós</h3>
-                        <h3>Carreiras</h3>
-                        <h3>Perguntas Frequentes</h3>
-                        <h3>Contato</h3>
-                        <h3>Comunidades</h3>
+                        <Link to="/">Sobre Nós</Link>
+                        <Link to="/">Carreiras</Link>
+                        <Link to="/">Perguntas Frequentes</Link>
+                        <Link to="/">Contato</Link>
+                        <Link to="/">Comunidades</Link>
                     </div>
                     <div className="footer-content2">
-                        <h3>Blog</h3>
-                        <h3>Newsletter</h3>
-                        <h3>Política de segurança</h3>
-                        <h3>Api's</h3>
-                        <h3>Comunidades</h3>
+                        <Link to="/">Blog</Link>
+                        <Link to="/">Newsletter</Link>
+                        <Link to="/">Política de segurança</Link>
+                        <Link to="/">Api's</Link>
+                        <Link to="/">Comunidades</Link>
                     </div>
                 </div>
+
                 <div className="footer-column2">
                     <div className="footer-content">
-                        <h3>suporte@devlabs.com.br</h3>
-                        <h3>Suporte 24H</h3>
+                        <Link to="/">suporte@devlabs.com.br</Link>
+                        <Link to="/">Suporte 24H</Link>
                     </div>
                 </div>
+
                 <div className="footer-column3">
                     <div className="logoImage">
                         <img src={DevLabsIcon} alt="DevLabs Icon"/>

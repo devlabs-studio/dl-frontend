@@ -3,8 +3,8 @@
   justify-content: center;
   align-items: center;
 
-  color: var(--color-text-in-primary);
-  background:  url("http://localhost:3000/assets/background.jpg") no-repeat;
+  /* color: var(--color-text-in-primary); */
+  background:  url("https://i.imgur.com/sQoYM0g.jpeg") no-repeat;
   background-size: 100% 100vh; 
   flex-direction:column;
 
@@ -16,14 +16,9 @@
   width: 100%;
 }
 
-
-
-
 #page-about-content h1 {
   margin: 38% 0 173px 0 ;
   font-size: 54px;
-
-
 }
 
 #page-about-content span {
