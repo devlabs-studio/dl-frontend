@@ -9,9 +9,9 @@ import './styles.css'
 
 const About = () => {
 
-  const image = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/220px-Image_created_with_a_mobile_phone.png'; 
-  const githubProfile = 'vicente nascimento';
-  const name = 'Vicente Nascimento';
+  const image = 'https://avatars0.githubusercontent.com/u/52288792?s=400&u=a150c46bbd7f8cd07176bf8853a234c5075d0bc8&v=4'; 
+  const githubProfile = 'pedroarm';
+  const name = 'Pedro Augusto';
 
   return (
     <div id="page-about">
