@@ -13,6 +13,7 @@
   max-width: 972px;
   margin: 0 auto;
   width: 100%;
+  
 }
 
 #page-about .container {
@@ -76,7 +77,20 @@
 
 #page-about .container .card-unique > div { 
   margin:22px;
+  flex-basis: 100%;
+  flex-grow: 1;
+  
 }
+
+#page-about .card-component > div {
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* Achar alterações para possiveis quebra de componentes cards */
+
+
 
 
 
