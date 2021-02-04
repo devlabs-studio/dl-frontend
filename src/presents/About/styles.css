@@ -84,7 +84,8 @@
 
 #page-about .card-component > div {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
+  /* Retirar essa alteração acima */
 
 }
 
