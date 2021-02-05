@@ -40,7 +40,7 @@
 }
 
 .card-component{
-  max-width: 50%;
+  max-width: 100%;
   display: flex;
 }
 
@@ -70,13 +70,22 @@
   justify-content:center;
 }
 #page-about .container .card-unique { 
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(4,1fr);
 }
 
-#page-about .container .card-unique > div { 
+.card-unique { 
   margin:22px;
+  display: grid;
+  grid-template-columns: 216px 216px 216px 216px;
+  grid-gap: 20px;
 }
+
+
+ 
+
+
+
 
 
 
