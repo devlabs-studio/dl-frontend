@@ -16,9 +16,7 @@ const About = () => {
   return (
     <div id="page-about">
       <div id="page-about-content" className="container">
-          <div className="about__header-content"
-          
-          >
+          <div className="about__header-content"> 
             <h1>A contínua jornada da DevLabs.</h1>
             <span>
               <img src={arrowDown} alt="arrow-down" />

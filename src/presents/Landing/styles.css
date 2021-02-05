@@ -8,7 +8,6 @@
 
 #landing-page .landing-content {
   max-width: 972px;
-
   display: flex;
   flex-direction: column;
 }

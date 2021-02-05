@@ -7,12 +7,8 @@
   background-color: #1f1f1f; 
   padding: 36px;
   border-radius: 10px;
-  height: 216px;
-  width: 216px;
-
-}
-
-
+ }
+ 
 .cardContainer img { 
   width: 100px;
   height: 100px;
