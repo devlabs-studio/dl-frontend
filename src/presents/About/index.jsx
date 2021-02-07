@@ -45,7 +45,6 @@ const About = () => {
           <CardAbout {...{ name, githubProfile, image }} />
           <CardAbout {...{ name, githubProfile, image }} />
         </div>
-
       </div>
       <div>
         <span>
@@ -53,9 +52,7 @@ const About = () => {
         </span>
       </div>
     </div>
-
   )
 }
-
 
 export default About
