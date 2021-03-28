@@ -16,7 +16,7 @@ const Header = () => {
           <div className="menu">
             <ul>
               <li><Link to="/" className="menu-select">Inicio</Link></li>
-              <li><Link to="/">Tecnologias</Link></li>
+              <li><Link to="/technology">Tecnologias</Link></li>
               <li><Link to="/">Projetos</Link></li>
              <li><Link to="/about">Sobre</Link></li> 
             </ul>
